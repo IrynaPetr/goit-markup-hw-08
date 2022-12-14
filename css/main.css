@@ -534,7 +534,7 @@ img {
   min-height: auto;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 58, 55, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(47, 58, 55, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero_bg_mob.jpg);
 }
 @media screen and (min-width: 480px) {
   .hero {
@@ -801,11 +801,6 @@ address {
   align-items: center;
   gap: 20px;
   width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .footer-form-cont {
-    margin-top: 60px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .footer-form-cont {
