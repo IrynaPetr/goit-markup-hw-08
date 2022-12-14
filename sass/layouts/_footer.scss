@@ -16,12 +16,19 @@
 
 @media screen and (min-width: 768px) {
         max-width: 768px;
+<<<<<<< Updated upstream
+=======
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        gap: 0;
+>>>>>>> Stashed changes
       }
      
 @media screen and (min-width: 1200px) {
         max-width: 1200px;
         align-items: baseline;
-      display: inline-block;
+   
       justify-content: space-between;
       flex-direction: row;
     }
@@ -59,6 +66,10 @@
 }
 }
 
+address {
+  display: flex;
+}
+
 .logo-foot {
 
   
@@ -74,7 +85,7 @@
 
 .footer-list {
   margin-top: 20px;
-
+display: inline-block;
 }
 
 
@@ -103,15 +114,45 @@
 align-items: center;
  justify-content: center;
   color: var(--color-font-third);
-  // margin-left: 70px;
+  
 
   @media screen and (min-width: 768px) {
+<<<<<<< Updated upstream
     
     margin: 0;
+=======
+ 
+>>>>>>> Stashed changes
   }
   @media screen and (min-width: 1200px) {
     align-items: start;
   }
+<<<<<<< Updated upstream
+=======
+}
+  .cont-contacts {
+    text-align: center;
+    
+    @media screen and (min-width: 768px) {
+     
+    }
+    
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+     display: inline-block;
+    }
+    }
+>>>>>>> Stashed changes
+
+.cont-contacts + .invite-container {
+  @media screen and (min-width: 768px) {
+    margin-left: 165px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 0px;
+  }
+}
 
 
 }
@@ -119,12 +160,16 @@ align-items: center;
 .footer-form-cont {
   color: var(--color-font-third);
   display: flex;
-  // margin-left: 90px;
+  
   margin-right: 0;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   width: 100%;
+
+  @media screen and (min-width: 768px) {
+   margin-top: 60px;
+  }
 
   @media screen and (min-width: 1200px) {
     float: right;
