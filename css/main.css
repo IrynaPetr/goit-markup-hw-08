@@ -697,13 +697,6 @@ img {
 @media screen and (min-width: 768px) {
   .footer .container {
     max-width: 768px;
-<<<<<<< Updated upstream
-=======
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    gap: 0;
->>>>>>> Stashed changes
   }
 }
 @media screen and (min-width: 1200px) {
@@ -779,44 +772,27 @@ address {
   justify-content: center;
   color: var(--color-font-third);
 }
-<<<<<<< Updated upstream
 @media screen and (min-width: 768px) {
   .invite-container {
     margin: 0;
   }
 }
-=======
->>>>>>> Stashed changes
 @media screen and (min-width: 1200px) {
   .invite-container {
     align-items: start;
   }
 }
-
-<<<<<<< Updated upstream
-=======
-.cont-contacts {
-  text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .cont-contacts {
-    text-align: left;
-    display: inline-block;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .cont-contacts + .invite-container {
+  .invite-container .cont-contacts + .invite-container {
     margin-left: 165px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .cont-contacts + .invite-container {
+  .invite-container .cont-contacts + .invite-container {
     margin-left: 0px;
   }
 }
 
->>>>>>> Stashed changes
 .footer-form-cont {
   color: var(--color-font-third);
   display: flex;

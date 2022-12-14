@@ -16,13 +16,6 @@
 
 @media screen and (min-width: 768px) {
         max-width: 768px;
-<<<<<<< Updated upstream
-=======
-        flex-direction: row;
-        justify-content: center;
-        align-items: baseline;
-        gap: 0;
->>>>>>> Stashed changes
       }
      
 @media screen and (min-width: 1200px) {
@@ -117,32 +110,12 @@ align-items: center;
   
 
   @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
     
     margin: 0;
-=======
- 
->>>>>>> Stashed changes
   }
   @media screen and (min-width: 1200px) {
     align-items: start;
   }
-<<<<<<< Updated upstream
-=======
-}
-  .cont-contacts {
-    text-align: center;
-    
-    @media screen and (min-width: 768px) {
-     
-    }
-    
-    @media screen and (min-width: 1200px) {
-      text-align: left;
-     display: inline-block;
-    }
-    }
->>>>>>> Stashed changes
 
 .cont-contacts + .invite-container {
   @media screen and (min-width: 768px) {
