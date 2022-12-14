@@ -16,6 +16,8 @@
 
 @media screen and (min-width: 768px) {
         max-width: 768px;
+        flex-direction: row;
+        justify-content: space-between;
       }
      
 @media screen and (min-width: 1200px) {
@@ -106,15 +108,27 @@ align-items: center;
   // margin-left: 70px;
 
   @media screen and (min-width: 768px) {
-    
-    margin: 0;
+    display: block;
+    float: right;
   }
   @media screen and (min-width: 1200px) {
     align-items: start;
   }
-
-
 }
+  .cont-contacts {
+    text-align: center;
+    
+    @media screen and (min-width: 768px) {
+      display: block;
+      float: left;
+    }
+    
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
+    }
+
+
 
 .footer-form-cont {
   color: var(--color-font-third);
@@ -133,40 +147,40 @@ align-items: center;
   }
  
 }
-.footer-contacts {
-  align-items: baseline;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-margin: auto;
-align-items: center;
-max-width: 480px;
-gap: 70px;
-justify-content: center;
+// .footer-contacts {
+//   align-items: baseline;
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+// margin: auto;
+// align-items: center;
+// max-width: 480px;
+// gap: 70px;
+// justify-content: center;
 
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-    align-items: baseline;
-    display: flex;
-      margin: auto;
-      justify-content: space-between;
-      flex-direction: row;
-gap: 165px;
+//   @media screen and (min-width: 768px) {
+//     max-width: 768px;
+//     align-items: baseline;
+//     display: flex;
+//       margin: auto;
+//       justify-content: space-between;
+//       flex-direction: row;
+// gap: 165px;
 
-  }
+//   }
  
-  @media screen and (min-width: 1200px) {
-    align-items: baseline;
-    display: flex;
-      margin: auto;
-      justify-content: space-between;
-      flex-direction: row;
-gap: 70px;
-float: left;
-margin: 0;
+//   @media screen and (min-width: 1200px) {
+//     align-items: baseline;
+//     display: flex;
+//       margin: auto;
+//       justify-content: space-between;
+//       flex-direction: row;
+// gap: 70px;
+// float: left;
+// margin: 0;
 
-  }
-}
+//   }
+// }
 .footer-form {
   display: flex;
   flex-direction: column;
@@ -222,11 +236,5 @@ width: 100%;
 
 }
 
-.cont-contacts {
-text-align: center;
 
-@media screen and (min-width: 1200px) {
-  text-align: left;
-}
-}
 

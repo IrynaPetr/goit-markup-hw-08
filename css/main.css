@@ -697,6 +697,8 @@ img {
 @media screen and (min-width: 768px) {
   .footer .container {
     max-width: 768px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -770,12 +772,28 @@ img {
 }
 @media screen and (min-width: 768px) {
   .invite-container {
-    margin: 0;
+    display: block;
+    float: right;
   }
 }
 @media screen and (min-width: 1200px) {
   .invite-container {
     align-items: start;
+  }
+}
+
+.cont-contacts {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .cont-contacts {
+    display: block;
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cont-contacts {
+    text-align: left;
   }
 }
 
@@ -793,41 +811,6 @@ img {
     float: right;
     width: 570px;
     align-items: start;
-  }
-}
-
-.footer-contacts {
-  align-items: baseline;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: auto;
-  align-items: center;
-  max-width: 480px;
-  gap: 70px;
-  justify-content: center;
-}
-@media screen and (min-width: 768px) {
-  .footer-contacts {
-    max-width: 768px;
-    align-items: baseline;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 165px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer-contacts {
-    align-items: baseline;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 70px;
-    float: left;
-    margin: 0;
   }
 }
 
@@ -881,15 +864,6 @@ img {
   .sub-input {
     margin-bottom: 0;
     width: 360px;
-  }
-}
-
-.cont-contacts {
-  text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .cont-contacts {
-    text-align: left;
   }
 }
 
