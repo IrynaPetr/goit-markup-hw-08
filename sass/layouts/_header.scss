@@ -17,7 +17,7 @@
 .logo {
   align-items: center;
   text-align: center;
-  margin-right: 92px;
+ 
 
   font-family: 'Raleway';
   font-style: normal;
@@ -31,6 +31,7 @@
 
   @media screen and (min-width: 768px) {
     padding: 0;
+    margin-right: 92px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -175,13 +176,13 @@ display: none;
   height: 100%;
   background-color: var(--bgc-basic);
   top: 0;
-  padding-top: 10px;
-  padding-bottom: 48px;
+  
   >.container {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 40px;
     // overflow: auto;
    
         &:hover,
@@ -260,14 +261,16 @@ display: none;
   }
 }
 
+.top {
+  margin-bottom: 50px;
+}
 .menu-list {
   font-weight: 500;
 font-size: 30px;
 line-height: calc(47 / 40);
 letter-spacing: 0.02em;
 color: #212121;
-margin-bottom: 300px;
-margin-left: 25px;
+
 @media screen and (min-width:480px) {
   font-size: 40px;
 }
@@ -277,7 +280,14 @@ margin-left: 25px;
 }
 .menu-link {
   color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+&:focus {
+  color: var(--color-blue);
+
 }
+}
+
 
 .mob-contact-link {
   color: #757575;
@@ -288,9 +298,10 @@ font-size: 20px;
 line-height: 28px;
 letter-spacing: 0.02em;
 color: #757575;
-margin-left: 25px;
+
 @media screen and (min-width: 480px) {
   font-size: 24px;
+  // margin-left: 25px;
 }
 }
 
@@ -300,12 +311,7 @@ margin-left: 25px;
 .mob-contact-item:not(last-child) {
   margin-bottom: 32px;
 }
-.link-contacts {
-}
-.header-icon {
-}
-.mob-item {
-}
+
 .mob-social {
   font-weight: 500;
   font-size: 13px;
@@ -315,12 +321,12 @@ margin-left: 25px;
   flex-direction: row;
   display: flex;
   
-  margin:  50px 5px 0 5px;
+  margin-top:  50px;
 
   @media screen and (min-width: 480px) {
     font-size: 18px;
    
-    margin-left: 25px;
+   
     margin-top: 64px;
   }
 }
@@ -334,9 +340,3 @@ margin-left: 25px;
   }
 
 
-.list {
-}
-.link-social {
-}
-.soc-icon {
-}
